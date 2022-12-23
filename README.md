@@ -36,8 +36,8 @@ Your users should be able to:
 
 ### Links
 
-1. Solution URL : https://github.com/sharjeelanwar10/sufyan2022.git
-2. Deployed Link : https://sharjeelanwar10.github.io/sufyan2022/
+1. Solution URL : https://
+2. Deployed Link : https://
 
 ## My Process
 ### Built With
