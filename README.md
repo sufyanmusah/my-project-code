@@ -37,7 +37,7 @@ Your users should be able to:
 ### Links
 
 1. Solution URL : https://
-2. Deployed Link : https://sufyanmusah.github.io
+2. Deployed Link : https://sufyanmusah.github.io/my-project-code/
 
 ## My Process
 ### Built With
