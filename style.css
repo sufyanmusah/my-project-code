@@ -7,7 +7,9 @@ body {
   background-image: url("bg-main-mobile.png");
   background-position: 0% -20%;
   background-repeat: no-repeat;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  margin-left: 80px;
+  margin-right: 80px; }
   @media (min-width: 48em) {
     body {
       background-image: url("bg-main-tablet.png");
@@ -27,14 +29,16 @@ body {
     .bg-pattern {
       display: initial;
       position: absolute;
-      
-      top: -40px;
+      right: 0rem;
+      top: -6rem;
       width: 312px;
-      height: 468px;
-      left: 950px; } }
+      height: 468px; } }
   @media (min-width: 90em) {
     .bg-pattern {
-      right: 0; } }
+      right: 0; 
+      
+    
+    } }
 
 a {
   text-decoration: none; }
@@ -50,20 +54,22 @@ li {
   100% {
     background-position: 0% 0%; } }
 
-.u-margin-top--big {
+.heading-text {
   margin-top: 6.4rem;
-width: 850px; }
+  
+   }
 
 .u-margin-bottom--small {
   margin-bottom: 1.2rem; }
 
 .u-margin-bottom--medium {
-  margin-bottom: 2rem; }
-  font-family: 'IBM Plex Sans';
-  font-weight: 700;
+  margin-bottom: 2rem;
+  display: flex;
+  max-width: 700px; }
+  
 .u-margin-bottom--big {
-  margin-bottom: 2.4rem; }
-
+  margin-bottom: 2.4rem; 
+  }
 .u-fw--bold {
   font-weight: 700; }
 
@@ -116,7 +122,9 @@ body {
   border-radius: 1rem;
   background-image: linear-gradient(to bottom, #191826 50%, #FCFAF9 50%);
   display: flex;
-  position: relative; }
+  position: relative;
+  max-width: 1000px;
+  max-height: 620px; }
   .section-app::before {
     background-image: url("bg-pattern-2.svg");
     background-position: top center;
@@ -263,3 +271,7 @@ body {
 .social-media > *:hover {
   cursor: pointer;
   filter: invert(73%) sepia(55%) saturate(591%) hue-rotate(327deg) brightness(106%) contrast(102%); }
+
+.u-fw--bold:hover {
+  cursor: pointer;
+}
