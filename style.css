@@ -27,9 +27,11 @@ body {
     .bg-pattern {
       display: initial;
       position: absolute;
-      right: -5rem;
-      top: -6rem;
-      width: 30rem; } }
+      
+      top: -40px;
+      width: 312px;
+      height: 468px;
+      left: 950px; } }
   @media (min-width: 90em) {
     .bg-pattern {
       right: 0; } }
@@ -49,14 +51,16 @@ li {
     background-position: 0% 0%; } }
 
 .u-margin-top--big {
-  margin-top: 6.4rem; }
+  margin-top: 6.4rem;
+width: 850px; }
 
 .u-margin-bottom--small {
   margin-bottom: 1.2rem; }
 
 .u-margin-bottom--medium {
   margin-bottom: 2rem; }
-
+  font-family: 'IBM Plex Sans';
+  font-weight: 700;
 .u-margin-bottom--big {
   margin-bottom: 2.4rem; }
 
